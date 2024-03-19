@@ -2,6 +2,8 @@ module github.com/caddy-dns/acmedns
 
 go 1.20
 
+replace github.com/libdns/acmedns v0.2.0 => github.com/conblem/libdns-acmedns v0.2.1
+
 require (
 	github.com/caddyserver/caddy/v2 v2.7.5
 	github.com/libdns/acmedns v0.2.0
